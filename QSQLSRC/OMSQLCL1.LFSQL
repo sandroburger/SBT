@@ -1,0 +1,4 @@
+
+CREATE VIEW &TOOL/OMSQLCL1
+        AS SELECT *
+        FROM OMSQLC;

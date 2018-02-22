@@ -1,0 +1,6 @@
+             PGM        PARM(&SRCL &SRCF &SRCM)
+             dcl    &srcm *char 10
+             dcl    &srcf *char 10
+             dcl    &srcl *char 10
+             RUNSQLSTM  SRCFILE(&SRCL/&SRCF) SRCMBR(&SRCM)
+             ENDPGM

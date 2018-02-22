@@ -1,0 +1,41 @@
+
+      * ----------------------------------------------------------- *
+      * Description                                                 *
+      * ----------------------------------------------------------- *
+      *                                                             *
+      * File .......: OMLOG                                         *
+      * Function ...: OMS log file.                                 *
+      * Author .....: W.S. Jongman.                                 *
+      * Startdate ..: 28-08-1991.                                   *
+      *                                                             *
+      * This file holds selected messages that occured during       *
+      * OMS processing.                                             *
+      *                                                             *
+      *                                                             *
+      * ----------------------------------------------------------- *
+
+      * ------------------------------------------------------------ *
+      * Reference file OMSREF
+      * ------------------------------------------------------------ *
+                                            REF(OMSREF)
+
+      * ------------------------------------------------------------ *
+      * Record OMLOGR
+      * ------------------------------------------------------------ *
+                R XMLOGR
+
+      * ------------------------------------------------------------ *
+      * Field descriptions
+      * ------------------------------------------------------------ *
+                  OGJOBN    R               REFFLD(JOBN)
+                  OGUSID    R               REFFLD(USID)
+                  OGJOB#    R               REFFLD(JOB#)
+                  OGINDT    R               REFFLD(INDT)
+                  OGINTM    R               REFFLD(INTM)
+                  OGAPPC    R               REFFLD(APPC)
+                  OGFNCC    R               REFFLD(FNCC)
+                  OGMSGN    R               REFFLD(MSGN)
+                  OGMSGF    R               REFFLD(MSGF)
+                  OGSEQ#    R               REFFLD(SEQ#)
+                  OGMSGD    R               REFFLD(MSGD)
+                  OGCMTM    R               REFFLD(CMTM)
